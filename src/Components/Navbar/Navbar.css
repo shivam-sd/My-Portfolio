@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 120px;
+}
+.nav-menu{
+    display: flex;
+    align-items: start;
+    list-style: none;
+    gap: 55px;
+    font-size: 19px;
+    font-family: outfit;
+}
+
+.nav-menu li:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.logo{
+    width: 100px;
+}
+.nav-connect{
+    padding: 15px 30px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: outfit;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.underline{
+    width: 50px;
+}
+.nav-menu li{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+.achor-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-mob-close{
+    display: none;
+}
+.nav-mob-open{
+    display: none;
+}
+@media(max-width:768px){
+    .navbar{
+        margin: 20px 50px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-mob-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+        cursor: pointer;
+    }
+    .nav-mob-close{
+        display: block;
+        position: relative;
+        top: 30px;
+        left: 130px;
+        width: 30px;
+        cursor: pointer;
+    }
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        gap: 30px;
+        background-color: #1F0016;
+        width: 350px;
+        height: 100%;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+    }
+    .nav-menu li{
+        font-size: 30px;
+        padding-left: 100px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
