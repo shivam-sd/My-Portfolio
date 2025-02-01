@@ -3,7 +3,7 @@ import "./About.css"
 import theme_img from "../../assets/theme-img.svg"
 import profile_img from "../../assets/profile-img.jpg"
 import about_ex from "./about.json"
-const About = () => {
+const About = () => { 
     return(
         <div id="about" className="about">
             <div className="about-title">
