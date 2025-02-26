@@ -2,6 +2,7 @@ import React from 'react'
 import "./Footer.css"
 import footer_logo from "../../assets/logo.png"
 import { IoIosContact } from "react-icons/io";
+import { color } from 'motion/react';
 const Footer = () => {
 
   
@@ -29,6 +30,7 @@ const Footer = () => {
             <p>Privacy Policy</p>
             <p>Connect With Me</p>
         </div>
+        <span className='date'>Created On :- 15 June 2024</span>
         <p className='footer-bottom-left'>
         © 2024 Shivam Maurya. All rights reserved.
         </p>
