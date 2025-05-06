@@ -1,0 +1,64 @@
+[
+    {
+        "w_no": "01",
+        "w_name": "XpertSwap Skill-Exchange Platform",
+        "w_img": "https://react-portfolio-nine-beryl.vercel.app/assets/project-2-CN_oAAYm.png",
+        "w_visit": "https://xpertswap.com/"
+    },
+    {
+        "w_no": "02",
+        "w_name": "Course Sellin Web App",
+        "w_img": "https://i.ytimg.com/vi/ailsCPiihJg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAYEzJoxBUA-pabZpzbEQjRd3_Ahw",
+        "w_visit": "https://github.com/shivam-sd/Fullstack-Course-Selling-App-"
+    },
+    {
+        "w_no": "03",
+        "w_name": "ChaneepWeb Services Pvt Ltd",
+        "w_img": "https://react-portfolio-nine-beryl.vercel.app/assets/project-4-BO6IbLQR.png",
+        "w_visit": "https://chaneepweb.in"
+    },
+    {
+        "w_no": "04",
+        "w_name": "Pokmon Character Search",
+        "w_img": "https://preview.redd.it/59gx043tw7791.png?width=640&crop=smart&auto=webp&s=df7016adad80cffe6187b314f90712c9b78e5932",
+        "w_visit": "https://bcapikachu.netlify.app/"
+    },
+    {
+        "w_no": "05",
+        "w_name": "X-Clone",
+        "w_img": "https://cdn.prod.website-files.com/60dbc6d21a2079f0e9338c95/60dbee6106e855720aa3e286_Twitter%20Feed%20Clone.PNG",
+        "w_visit": "https://github.com/shivam-sd/Twitter-Clone-With-Tailwidnd"
+    },
+    {
+        "w_no": "06",
+        "w_name": "Movie Search App",
+        "w_img": "https://external-preview.redd.it/zpw71122so0wvG57xpR5Y3gEZJ7VLNcgWnx4gN4jV0s.png?format=pjpg&auto=webp&s=61d9c77550bfd58d2d738055ae3d988301224e90",
+        "w_visit": "https://github.com/shivam-sd/Movie-Search-App"
+    },
+    {
+        "w_no": "07",
+        "w_name": "Netflix Clone ",
+        "w_img": "https://i.ytimg.com/vi/Tgat3-prVv4/maxresdefault.jpg",
+        "w_visit": "https://github.com/shivam-sd/Netflix_Clone"
+    },
+    {
+        "w_no": "08",
+        "w_name": "News App",
+        "w_img": "https://images.projectsgeek.com/2022/06/News-website-search-1.png"
+    },
+    {
+        "w_no": "09",
+        "w_name": "Gemini Clone",
+        "w_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9RnaaRMfnHbLE9vEhQiaf0Q-lh56deC1gDxJ5MRXz_FyslQZu7n_3a3DaEoYmq5Pmo1s&usqp=CAU"
+    },
+    {
+        "w_no": "10",
+        "w_name": "Virtual Ai Assistance",
+        "w_img": "https://www.webopedia.com/wp-content/uploads/2024/11/ai-assistant-cover.webp"
+    },
+    {
+        "w_no": "11",
+        "w_name": "QR Code Generator",
+        "w_img": "https://store-images.s-microsoft.com/image/apps.54460.14466464113706381.a3914192-e7ad-4dc5-94bf-94b42c5a8d10.1a93d047-bc2c-4ffd-8df9-5e04f6ae3ae6"
+    }
+]

@@ -1,0 +1,19 @@
+.whatsapp{
+    position:fixed;
+    right: 30px;
+    bottom: 20px;
+}
+.chat-icon{
+    width: 3vw;
+}
+
+@media (max-width: 380px){
+    .chat-icon{
+        width: 8vw;
+    }
+    .whatsapp{
+        position:fixed;
+        right: 20px;
+        bottom: 10px;
+    }
+}

@@ -1,0 +1,231 @@
+.main {
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mywork-title {
+  position: relative;
+  margin-top: 20px;
+}
+.mywork-title h1 {
+  padding: 0px 30px;
+  font-size: 70px;
+  font-weight: 600;
+}
+.mywork-title img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.container {
+  width: 80%;
+  /* background-color: rgb(63, 50, 50); */
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5vh;
+}
+.timeline {
+  /* border: 1px solid rgba(178, 177, 175, 0.622);  */
+  border-radius: 5px;
+  /* padding: 20px; */
+  position: relative;
+}
+.high {
+  background-color: white;
+  color: black;
+  width: 30vw;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  animation: high 6s ease-in forwards;
+}
+.inter {
+  background-color: white;
+  color: black;
+  width: 30vw;
+  margin-top: 5px;
+  padding: 15px;
+  margin-left: 55%;
+  border-radius: 5px;
+  animation: inter 7s ease-out forwards ;
+}
+.degree {
+  background-color: white;
+  color: black;
+  width: 30vw;
+  margin-top: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  animation: degree 8s forwards ease-in;
+}
+.line {
+  position: absolute;
+  background-color: white;
+  width: 4px;
+  height: 94%;
+  left: 38vw;
+  animation: moveline ease 15s forwards;
+}
+.point {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+.hi {
+  left: 48.3%;
+  top: 18vh;
+}
+.in {
+  left: 48.3%;
+  top: 44vh;
+}
+.deg {
+  left: 48.3%;
+  top: 72vh;
+}
+@keyframes moveline {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+@keyframes high{
+    0%{
+        margin-left: -200%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+@keyframes inter{
+    0%{
+        margin-left: 1000%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+@keyframes degree{
+    0%{
+        margin-left: -200%;
+    }
+    100%{
+        margin-left: 0%;
+    }
+}
+@media (max-width: 600px) {
+  .line {
+    position: absolute;
+    background-color: white;
+    width: 4px;
+    height: 90%;
+    left: 73vw;
+    animation: moveline ease 15s forwards;
+  }
+  .point {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  .hi {
+    background-color: orangered;
+    left: 95%;
+    top: 25vh;
+  }
+  .in {
+    background-color: white;
+    left: 95%;
+    top: 67vh;
+  }
+  .deg {
+    background-color: green;
+    left: 95%;
+    top: 110vh;
+  }
+  .high {
+    width: 100%;
+  }
+  .inter {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 20px;
+  }
+  .degree {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .timeline {
+    position: relative;
+  }
+}
+.year{
+  font-size: 2.5vh;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.course{
+  font-size: 3vh;
+  margin-bottom: 1px;
+  text-decoration: underline;
+  animation: colorChange 3s forwards infinite;
+}
+.collage{
+  font-size: 3vh;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.grade{
+  font-size: 3vh;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.hobby{
+  font-size: 3vh;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.high:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(212, 222, 222, 0.5);
+  transition: 0.8s;
+  cursor: pointer;
+}
+.inter:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(212, 222, 222, 0.5);
+  transition: 0.8s;
+  cursor: pointer;
+}
+.degree:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(212, 222, 222, 0.5);
+  transition: 0.8s;
+  cursor: pointer;
+}
+@keyframes colorChange {
+  0%{
+    color: #000000;
+  }
+  25%{
+    color: #3a0ca3;
+  }
+  50%{
+    color: #00b4d8;
+  }
+  75%{
+    color: #8338ec;
+  }
+  100%{
+    color: #ffbe0b;
+  }
+}
